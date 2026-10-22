@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Travels</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-image: url('ocean1.png'); background-repeat: no-repeat;">
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">Ocean Travels</a>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+
+        <div id="search">
+            <input id="searchinput" class="searchinput" placeholder="Enter a destination" aria-label="Search destinations" type="search">
+            <button id="searchbtn" class="btn" type="button">Search</button>
+            <button id="clearbtn" class="btn" type="button">Clear</button>
+        </div>
+        <div id="dropdown" hidden>
+            <div class="dropdown-header"><button id="close-btn" type="button" aria-label="Close search results">X</button></div>
+            <div id="resultContainer" aria-live="polite"></div>
+        </div>
+    </nav>
+
+    <div id="Home">
+        <div class="Homecontent">
+
+            <div class="mainhomecontent">
+                <p class="homesectionheader">Discover Your Next Adventure</p>
+
+                <p class="homesectiondescription">Ocean Travels helps you discover amazing destinations<br>
+                    and plan unforgettable trips. Find your next adventure<br>
+                    with just a few clicks!<br>
+                    <Button class="bookbtn">Book Now</Button>
+            </div>
+
+            <script src="travel_recommendation.js"></script>
+
+</body>
+
+</html>
